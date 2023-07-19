@@ -20,7 +20,7 @@ def menu_title():
     badger.set_update_speed(2)
     badger.set_font("bitmap8")
     badger.text("Dice Roller", 48, 10, badger2040.WIDTH, 4)
-    badger.text("How many die you want to roll? O.o ", 15, 50, badger2040.WIDTH, 2)
+    badger.text("How many die you want to roll?", 15, 50, badger2040.WIDTH, 2)
 
 def number_of_dice_text(number_of_dice):
     badger.set_pen(0)
@@ -102,7 +102,7 @@ while True:
         badger.update()
         roll_dice(number_of_dice)
         badger.update()
-    
+    #\(@^0^@)/
     if badger.pressed(badger2040.BUTTON_A):
         menu = True
         draw_menu()
