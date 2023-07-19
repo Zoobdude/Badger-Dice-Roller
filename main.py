@@ -35,17 +35,6 @@ def draw_menu():
     badger.update()
 
 #run
-
-#OLD ROLL ANIMATION
-def roll_animation():
-    badger.set_update_speed(3)
-    for i in [1,2,1,2]:
-        cls()
-        jpeg.open_file(f"roll{i}.jpg")
-        jpeg.decode(84, 0)
-        badger.update()
-        sleep(0.1)
-    badger.set_update_speed(2)
 #---------------------------------------------
 def roller(number_of_dice):
     for i in range(number_of_dice):
